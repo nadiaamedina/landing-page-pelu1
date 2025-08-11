@@ -1,3 +1,7 @@
+import React from "react";
+import { Button } from "react-bootstrap";
+import "./Footer.css";
+
 function Footer() {
   return (
     <footer id="footer">
@@ -10,7 +14,6 @@ function Footer() {
           variant="success"
           className="d-inline-flex align-items-center"
         >
-          <BsWhatsapp className="me-2" />
           Chatear por WhatsApp
         </Button>
       </div>
